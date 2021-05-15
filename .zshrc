@@ -5,7 +5,7 @@ alias bye='clear; exit'
 alias clr='clear'
 alias cls='clear'
 alias cookie='fortune | cowsay -f $(ls /usr/local/share/cows/ | shuf -n 1)'
-alias wtfip='echo Your fucking IP is : $(curl -sb -H https://wtfismyip.com/text)'
+alias wtfip='echo Your fucking IP is : $(curl -sb -H https://ipv4.wtfismyip.com/text)'
 
 cookie
 
