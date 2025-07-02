@@ -1,0 +1,14 @@
+echo "===== Installing custom ZSH settings ====="
+echo "========== Installing  OhMyZ.sh =========="
+echo "======= Copying data from FredCorp ======="
+echo "Installing prerequisites... \n"
+sudo apt-get update
+sudo apt-get install git -y
+sudo apt-get install zsh -y
+echo "=== Changing default shell environment ==="
+chsh /bin/zsh
+echo "========== Installing  OhMyZ.sh =========="
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo "======= Copying data from FredCorp ======="
+wget https://raw.githubusercontent.com/fred-corp/zsh-settings/refs/heads/main/.zshrc -O zsh_data
+cat zsh_data >> ~/.zshrc
