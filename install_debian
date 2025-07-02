@@ -4,6 +4,7 @@ echo "======= Copying data from FredCorp ======="
 echo "Installing prerequisites... \n"
 sudo apt-get update
 sudo apt-get install git -y
+sudo apt-get install curl -y
 sudo apt-get install zsh -y
 echo "=== Changing default shell environment ==="
 chsh $USER /bin/zsh
