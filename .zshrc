@@ -3,9 +3,11 @@ alias please='sudo'
 alias fucking='sudo'
 alias bye='clear; exit'
 alias clr='clear'
-alias cls='clear'
-alias cookie='fortune | cowsay'
-alias wtfip='echo Your fucking IP is : $(curl -sb -H https://ipv4.wtfismyip.com/text)'
+alias cls='clear && source ~/.zshrc'
+alias wtfip='echo Your fucking IP is : $(curl -sb -H http://ipv4.myip.wtf/text)'
+alias potato='echo 🥔'
+alias blyat='fuck'
+alias upgradePip='pipupgrade --latest --yes --pip-path pip3'
 
 cookie
 
