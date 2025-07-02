@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get install git -y
 sudo apt-get install zsh -y
 echo "=== Changing default shell environment ==="
-chsh /bin/zsh
+chsh $USER /bin/zsh
 echo "========== Installing  OhMyZ.sh =========="
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "======= Copying data from FredCorp ======="
